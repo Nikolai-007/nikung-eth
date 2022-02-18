@@ -1,0 +1,26 @@
+{
+  "type": "commonjs",
+  "name": "eth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/common": "^2.6.2",
+    "@ethereumjs/tx": "^3.5.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "ansicolor": "^1.1.100",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ololog": "^1.1.175",
+    "truffle": "^5.4.33",
+    "web3": "^1.7.0",
+    "web3-eth-contract": "^1.7.0"
+  }
+}
