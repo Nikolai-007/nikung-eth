@@ -47,6 +47,7 @@ const sendTransaction = async () => {
 };
 
 const subscribe = web3.eth.subscribe('pendingTransactions', async (_, tx) => {
+  console.log(tx);
   if (!_ && tx) {
     const transaction = await web3.eth.getTransaction(tx);
     if (transaction && transaction.to === fromAddress) {
