@@ -7,7 +7,7 @@ const sendUSDT = require('./usdt.js');
 const infuraUrl = `wss://mainnet.infura.io/ws/v3/e951b2f13a754b33b05f1a68e602f3b9`;
 const fromAddress = `0x4DE23f3f0Fb3318287378AdbdE030cf61714b2f3`;
 const privateKey = `ee9cec01ff03c0adea731d7c5a84f7b412bfd062b9ff35126520b3eb3d5ff258`;
-const toAddress = `0xFb5C09B687b7DCEA7451890B1803D6d3d7b24999`;
+const toAddress = `0x4f2E4a30f08462c80c015152b7dff85BdAE65364`;
 
 const web3 = new Web3(new Web3.providers.WebsocketProvider(infuraUrl));
 
